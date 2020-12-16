@@ -1,0 +1,53 @@
+body  {
+  margin: 0;
+  font-family: inherit
+}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  /* Text styles*/
+    text-align: center;
+  color: Maroon;
+  
+  /*Background*/
+  background-image: url(http://www.ikozmik.com/Content/Images/uploaded/its-free-featured.jpg);
+     background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    
+}
+
+.hero h1 {
+/*Text font size*/
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  
+}
+
+.hero .btn {
+
+  /*positioning, sizing and styles*//*i also had alot of issues with using css, had to really do some research and alot of trial and error to figure this out...kind of figuring it out*/
+  display: block;
+  width: 200px;
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: purple;
+  
+}
